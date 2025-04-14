@@ -1,0 +1,24 @@
+CONNECT /cdn-cgi/trace HTTP/1.1[crlf]Host: [Host][crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
+
+riot.dilangitygbiru.web.id:80@gopar_ilped:1
+nontontv.vidio.com
+
+vmess://eyJhZGQiOiJub250b250di52aWRpby5jb20iLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsImhvc3QiOiJyaW90LmRpbGFuZ2l0eWdiaXJ1LndlYi5pZCIsImlkIjoiOWUyNThlOGYtNzY0My00NjIyLWE1NTItODY1YTFkNDZlOWQ0IiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6ImxpZmV0aW1lIiwidGxzIjoidGxzIiwic25pIjoicmlvdC5kaWxhbmdpdHlnYmlydS53ZWIuaWQiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+
+proxies:
+- name: lifetime
+  server: nontontv.vidio.com
+  type: vmess
+  port: 443
+  uuid: 9e258e8f-7643-4622-a552-865a1d46e9d4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: riot.dilangitygbiru.web.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: riot.dilangitygbiru.web.id
+  udp: true
